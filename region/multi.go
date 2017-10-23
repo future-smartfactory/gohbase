@@ -11,8 +11,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/future-smartfactory/gohbase/hrpc"
+	"github.com/future-smartfactory/gohbase/pb"
 )
 
 type multi struct {

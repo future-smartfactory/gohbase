@@ -9,11 +9,11 @@ import (
 	"context"
 	"fmt"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
-	"github.com/tsuna/gohbase/region"
-	"github.com/tsuna/gohbase/zk"
+	log "github.com/sirupsen/logrus"
+	"github.com/future-smartfactory/gohbase/hrpc"
+	"github.com/future-smartfactory/gohbase/pb"
+	"github.com/future-smartfactory/gohbase/region"
+	"github.com/future-smartfactory/gohbase/zk"
 )
 
 // AdminClient to perform admistrative operations with HMaster

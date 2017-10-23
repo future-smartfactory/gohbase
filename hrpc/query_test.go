@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/aristanetworks/goarista/test"
-	"github.com/tsuna/gohbase/filter"
+	"github.com/future-smartfactory/gohbase/filter"
 )
 
 func TestFamilesOption(t *testing.T) {

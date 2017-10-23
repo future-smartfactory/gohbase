@@ -13,10 +13,10 @@ import (
 	"math"
 	"sync"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/golang/protobuf/proto"
-	"github.com/tsuna/gohbase/hrpc"
-	"github.com/tsuna/gohbase/pb"
+	"github.com/future-smartfactory/gohbase/hrpc"
+	"github.com/future-smartfactory/gohbase/pb"
 )
 
 const noScannerID = math.MaxUint64

@@ -22,10 +22,10 @@ import (
 
 	"math"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/tsuna/gohbase"
-	"github.com/tsuna/gohbase/filter"
-	"github.com/tsuna/gohbase/hrpc"
+	log "github.com/sirupsen/logrus"
+	"github.com/future-smartfactory/gohbase"
+	"github.com/future-smartfactory/gohbase/filter"
+	"github.com/future-smartfactory/gohbase/hrpc"
 )
 
 var host = flag.String("host", "localhost", "The location where HBase is running")
